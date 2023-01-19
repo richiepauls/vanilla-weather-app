@@ -1,7 +1,13 @@
 body {
   font-family: arial, sans-serif;
 
-  background: #d7edff;
+  background: radial-gradient(
+    circle at 7.4% 45.1%,
+    rgb(236, 206, 251) 0%,
+    rgb(205, 237, 246) 45.1%,
+    rgb(227, 251, 252) 78.4%,
+    rgb(230, 247, 235) 90%
+  );
 }
 h1 {
   color: #878787;
@@ -33,13 +39,13 @@ li:first-letter {
 }
 
 input[type="submit"].btn-btn-primary {
-  background-color: blue;
+  background-color: #6c757d;
   border-radius: 13%;
   border-color: beige;
   padding: 5px;
 }
 input[type="submit"].btn-btn-primary:hover {
-  color: blue;
+  color: #6c757d;
   border-color: beige;
   background-color: beige;
 }
@@ -53,6 +59,7 @@ input[type="submit"].btn-btn-primary:hover {
   border: 3px solid #dadde1;
   border-radius: 15px;
   font-family: Arial, sans-serif;
+  background-color: #fff;
 }
 
 .weather-temperature img {
@@ -71,4 +78,14 @@ input[type="submit"].btn-btn-primary:hover {
   position: relative;
   font-size: 16px;
   top: -34px;
+}
+.slider {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+
+.slider.round {
+  border-radius: 50%;
 }
