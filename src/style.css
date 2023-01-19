@@ -53,3 +53,6 @@ li:first-letter {
   font-size: 16px;
   top: -34px;
 }
+searchButton {
+  border-radius: 50px;
+}
